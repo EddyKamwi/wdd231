@@ -1,0 +1,158 @@
+:root {
+    --primary: #000022;
+    --secondary: #E28413;
+    --asset: #FBF5F3;
+    --text-light: var(--asset);
+    --text-dark: var(--primary);
+    --text-secondary: var(--secondary);
+    --bg-light: #fff;
+    --bg-asset: var(--asset);
+    --bg-primary: var(--primary);
+    --bg-secondary: var(--secondary);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: var(--bg-asset);
+    padding: 1rem;
+}
+
+header .top-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--bg-light);
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+}
+
+nav a {
+    margin: .5rem;
+    text-decoration: none;
+    display: block;
+    color: var(--text-dark);
+}
+
+figure,
+figcaption {
+    text-align: center;
+}
+
+.card {
+    margin: 1rem 0;
+}
+
+nav a:hover{
+    color: var(--text-secondary);
+    transform:translateY(-2px)
+}
+.active {
+    color: var(--text-secondary);}
+
+.nav-icons {
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.nav-icons:hover {
+    transform: scale(1.1);
+}
+
+.close {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    background-color: rgb(210, 19, 19);
+    color: var(--text-light);
+
+}
+h1{
+    padding: 1rem;
+}
+
+section {
+    padding: 0 1rem;
+}
+
+section h2 {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+    background-color: var(--bg-primary);
+    color: var(--text-light);
+}
+
+ul {
+    margin: 2rem;
+}
+
+.navs {
+    display: flex;
+    gap: .5rem;
+    justify-content: space-evenly;
+    padding: 1rem 1rem .3rem 1rem;
+    border-bottom: rgb(0, 0, 34, 0.5) solid;
+}
+
+.navs span {
+    background-color: var(--secondary);
+    padding: .2rem 1rem;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navs span:hover {
+    transform: scale(1.1);
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.courses span {
+    width: 100%;
+    text-align: center;
+    background-color: var(--bg-primary);
+    color: var(--text-light);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.completed {
+    background-color: var(--bg-asset) !important;
+    color: var(--text-dark) !important;
+    border: rgb(0, 0, 34, .3) solid;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.2rem;
+}
