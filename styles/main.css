@@ -18,8 +18,9 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 400;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     max-width: 1080px;
     margin: 0 auto;
     background-color: var(--bg-asset);
@@ -62,12 +63,14 @@ figcaption {
     margin: 1rem 0;
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--text-secondary);
-    transform:translateY(-2px)
+    transform: translateY(-2px)
 }
+
 .active {
-    color: var(--text-secondary);}
+    color: var(--text-secondary);
+}
 
 .nav-icons {
     cursor: pointer;
@@ -88,7 +91,8 @@ nav a:hover{
     color: var(--text-light);
 
 }
-h1{
+
+h1 {
     padding: 1rem;
 }
 
