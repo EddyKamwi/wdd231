@@ -78,13 +78,16 @@ const courses = [
     }
 ]
 
+let count = 0;
 const coursesContainer = document.getElementById("courses");
 const allButton = document.getElementById('all');
 const cseButton = document.getElementById('cse');
 const wddButton = document.getElementById('wdd');
+const countSpan = document.getElementById('count');
 
 courses.map((course) => {
     const span = document.createElement("span");
+    count++;
 
     if (course.completed == false) {
         span.setAttribute("class", "completed")
@@ -92,15 +95,19 @@ courses.map((course) => {
 
     span.innerText = `${course.subject} ${course.number}`
     coursesContainer.appendChild(span);
+    countSpan.innerText = count;
 })
 
 // when you click the all button
+
 allButton.addEventListener("click", () => {
     // empty the container
     coursesContainer.innerHTML = '';
+    count = 0;
 
     courses.map((course) => {
         const span = document.createElement("span");
+        count++;
 
         if (course.completed == false) {
             span.setAttribute("class", "completed")
@@ -108,6 +115,8 @@ allButton.addEventListener("click", () => {
 
         span.innerText = `${course.subject} ${course.number}`
         coursesContainer.appendChild(span);
+        countSpan.innerText = count;
+
     })
 })
 
@@ -115,11 +124,13 @@ allButton.addEventListener("click", () => {
 cseButton.addEventListener("click", () => {
     // empty the container
     coursesContainer.innerHTML = '';
+    count = 0;
 
     courses.map((course) => {
         if (course.subject.toLowerCase() == "cse") {
 
             const span = document.createElement("span");
+            count++;
 
             if (course.completed == false) {
                 span.setAttribute("class", "completed")
@@ -127,6 +138,8 @@ cseButton.addEventListener("click", () => {
 
             span.innerText = `${course.subject} ${course.number}`
             coursesContainer.appendChild(span);
+            countSpan.innerText = count;
+
         }
     })
 })
@@ -135,10 +148,12 @@ cseButton.addEventListener("click", () => {
 wddButton.addEventListener("click", () => {
     // empty the container
     coursesContainer.innerHTML = '';
+    count = 0;
 
     courses.map((course) => {
         if (course.subject.toLowerCase() == "wdd") {
             const span = document.createElement("span");
+            count++;
 
             if (course.completed == false) {
                 span.setAttribute("class", "completed")
@@ -146,6 +161,8 @@ wddButton.addEventListener("click", () => {
 
             span.innerText = `${course.subject} ${course.number}`
             coursesContainer.appendChild(span);
+            countSpan.innerText = count;
+
         }
     })
 })
