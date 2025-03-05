@@ -87,7 +87,7 @@ const countSpan = document.getElementById('count');
 
 courses.map((course) => {
     const span = document.createElement("span");
-    count++;
+    count += course.credits;
 
     if (course.completed == false) {
         span.setAttribute("class", "completed")
@@ -107,7 +107,7 @@ allButton.addEventListener("click", () => {
 
     courses.map((course) => {
         const span = document.createElement("span");
-        count++;
+        count += course.credits;
 
         if (course.completed == false) {
             span.setAttribute("class", "completed")
@@ -130,7 +130,7 @@ cseButton.addEventListener("click", () => {
         if (course.subject.toLowerCase() == "cse") {
 
             const span = document.createElement("span");
-            count++;
+            count += course.credits;
 
             if (course.completed == false) {
                 span.setAttribute("class", "completed")
@@ -153,7 +153,7 @@ wddButton.addEventListener("click", () => {
     courses.map((course) => {
         if (course.subject.toLowerCase() == "wdd") {
             const span = document.createElement("span");
-            count++;
+            count += course.credits;
 
             if (course.completed == false) {
                 span.setAttribute("class", "completed")
