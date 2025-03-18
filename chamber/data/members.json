@@ -2,138 +2,138 @@
   "companies": [
     {
       "names": "Qualis Designers",
-      "addresses": {
-        "street": "3628 Mkusi Ave,",
+      "address": {
+        "street": "3628 Mkusi Ave",
         "province": "Lusaka",
         "country": "Zambia"
       },
-      "phone numbers": ["+260977675885", "+260962094954"],
+      "cell": ["+260977675885"],
       "website": "https://eddykamwi.github.io/qualis",
-      "iconUrl": "https://eddykamwi.github.io/images/favicon.svg",
-      "membership level": null,
-      "other information": {
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYeI9Up03WooEmyqKiwyIlFvuGMnFg1RiHQ&s",
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Edward Kamwi",
         "employees": 2,
-        "year of operating": 2024
+        "birthYear": 2024
       }
     },
     {
       "names": "Facebook (Meta Platforms)",
-      "addresses": {
+      "address": {
         "street": "1 Hacker Way",
         "province": "California",
         "country": "United States"
       },
-      "phone numbers": ["+1 650-543-4800"],
+      "cell": ["+1 650-543-4800"],
       "website": "https://about.meta.com",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
-      "membership level": null,
-      "other information": {
+      "iconUrl": "https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg",
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Mark Zuckerberg",
         "employees": 67600,
-        "year of operating": 2004
+        "birthYear": 2004
       }
     },
     {
       "names": "Microsoft",
-      "addresses": {
+      "address": {
         "street": "One Microsoft Way",
         "province": "Washington",
         "country": "United States"
       },
-      "phone numbers": ["+1 425-882-8080"],
+      "cell": ["+1 425-882-8080"],
       "website": "https://www.microsoft.com",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
-      "membership level": null,
-      "other information": {
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGIXBGr9oszkD9qUjUYVn7i-0lwuHoDth3_Q&s",
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Bill Gates",
         "employees": 221000,
-        "year of operating": 1975
+        "birthYear": 1975
       }
     },
     {
       "names": "Google (Alphabet Inc.)",
-      "addresses": {
+      "address": {
         "street": "1600 Amphitheatre Parkway",
         "province": "California",
         "country": "United States"
       },
-      "phone numbers": ["+1 650-253-0000"],
+      "cell": ["+1 650-253-0000"],
       "website": "https://about.google",
       "iconUrl": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "membership level": null,
-      "other information": {
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Larry Page & Sergey Brin",
         "employees": 182500,
-        "year of operating": 1998
+        "birthYear": 1998
       }
     },
     {
       "names": "Apple Inc.",
-      "addresses": {
+      "address": {
         "street": "One Apple Park Way",
         "province": "California",
         "country": "United States"
       },
-      "phone numbers": ["+1 408-996-1010"],
+      "cell": ["+1 408-996-1010"],
       "website": "https://www.apple.com",
       "iconUrl": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png",
-      "membership level": null,
-      "other information": {
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Steve Jobs",
         "employees": 164000,
-        "year of operating": 1976
+        "birthYear": 1976
       }
     },
     {
       "names": "Samsung Electronics",
-      "addresses": {
+      "address": {
         "street": "129 Samsung-ro",
         "province": "Gyeonggi-do",
         "country": "South Korea"
       },
-      "phone numbers": ["+82 2-2255-0114"],
+      "cell": ["+82 2-2255-0114"],
       "website": "https://www.samsung.com",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
-      "membership level": null,
-      "other information": {
+      "iconUrl": "https://i.namu.wiki/i/XSIOAAJo3KQI6q9CtG7Zs35kWdJDGJytIUResnjEOP4v3Z5MpOXUD9KUkg3BrcdqZKNiH73iP9u3bATIX87Fhg.svg",
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Lee Byung-chul",
         "employees": 266673,
-        "year of operating": 1938
+        "birthYear": 1938
       }
     },
     {
       "names": "Dell Technologies",
-      "addresses": {
+      "address": {
         "street": "One Dell Way",
         "province": "Texas",
         "country": "United States"
       },
-      "phone numbers": ["+1 800-999-3355"],
+      "cell": ["+1 800-999-3355"],
       "website": "https://www.dell.com",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg",
-      "membership level": null,
-      "other information": {
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Lw6vWDa3rlOYsictTFkUNvqY8fX0H8_9Ag&s",
+      "membership_level": null,
+      "otherInfo": {
         "founder": "Michael Dell",
         "employees": 133000,
-        "year of operating": 1984
+        "birthYear": 1984
       }
     },
     {
       "names": "The Coca-Cola Company",
-      "addresses": {
+      "address": {
         "street": "One Coca-Cola Plaza",
         "province": "Georgia",
         "country": "United States"
       },
-      "phone numbers": ["+1 404-676-2121"],
+      "cell": ["+1 404-676-2121"],
       "website": "https://www.coca-colacompany.com",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg",
-      "membership level": null,
-      "other information": {
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlH3hcFPsdT-soSnBiDx6arhQnsOiXZ_kFQ&s",
+      "membership_level": null,
+      "otherInfo": {
         "founder": "John Stith Pemberton",
         "employees": 70000,
-        "year of operating": 1892
+        "birthYear": 1892
       }
     }
   ]

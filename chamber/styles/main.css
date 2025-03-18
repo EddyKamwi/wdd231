@@ -1,9 +1,69 @@
-:root{
-    --primary:#000;
-    --secondary:#fff;
+:root {
+  --primary: #000;
+  --secondary: #fff;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: wrap;
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.viewing button {
+  font-size: 1.5rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+.button-active {
+  background-color: rgb(5, 92, 5);
+  color: #fff;
+  border: none;
+}
+button:hover {
+  background-color: lightgreen;
+  color: #000;
+}
+
+#main-container {
+  padding: .5rem .2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1rem;
+}
+
+section {
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
+}
+
+.container {
+  padding: .4rem .2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: .2rem;
+}
+.list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  place-self: center;
+}
+section a{
+    text-wrap: 
+}
+.list img {
+  display: none;
+}
+
+footer {
+  text-align: center;
 }
