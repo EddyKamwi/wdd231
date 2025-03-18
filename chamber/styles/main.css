@@ -21,16 +21,127 @@ body{
     font-style: normal;
     font-size: small;
 }
+
+
+
+header .top-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: var(--bg-light);
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+}
+
+nav a {
+  margin: .5rem;
+  text-decoration: none;
+  display: block;
+  color: var(--text-dark);
+}
+
+figure,
+figcaption {
+  text-align: center;
+}
+
+.card {
+  margin: 1rem 0;
+}
+
+nav a:hover {
+  color: var(--text-secondary);
+  transform: translateY(-2px)
+}
+
+.active {
+  color: var(--text-secondary);
+}
+
+.nav-icons {
+  cursor: pointer;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.nav-icons:hover {
+  transform: scale(1.1);
+}
+
+.close {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  background-color: rgb(210, 19, 19);
+  color: var(--text-light);
+
+}
+
+h1 {
+  padding: 1rem;
+}
+
+section {
+  padding: 0 1rem;
+}
+
+section h2 {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+  background-color: var(--bg-primary);
+  color: var(--text-light);
+}
+
+ul {
+  margin: 2rem;
+}
+
+.navs {
+  display: flex;
+  gap: .5rem;
+  justify-content: space-evenly;
+  padding: 1rem 1rem .3rem 1rem;
+  border-bottom: rgb(0, 0, 34, 0.5) solid;
+}
+
+.navs span {
+  background-color: var(--secondary);
+  padding: .2rem 1rem;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navs span:hover {
+  transform: scale(1.1);
+}
+
 main {
   margin: 0 auto;
   text-align: center;
   padding: 1rem;
 }
+h1{text-align: left;}
 .viewing{
   display: flex;
   justify-content: center;
   width: 100%;
   gap:1rem;
+  margin: 1rem auto;
 }
 
 .viewing button {
