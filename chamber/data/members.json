@@ -13,7 +13,7 @@
       "membership level": null,
       "other information": {
         "founder": "Edward Kamwi",
-        "employess": 2,
+        "employees": 2,
         "year of operating": 2024
       }
     },
@@ -30,7 +30,7 @@
       "membership level": null,
       "other information": {
         "founder": "Mark Zuckerberg",
-        "employess": 67600,
+        "employees": 67600,
         "year of operating": 2004
       }
     },
@@ -47,7 +47,7 @@
       "membership level": null,
       "other information": {
         "founder": "Bill Gates",
-        "employess": 221000,
+        "employees": 221000,
         "year of operating": 1975
       }
     },
@@ -64,7 +64,7 @@
       "membership level": null,
       "other information": {
         "founder": "Larry Page & Sergey Brin",
-        "employess": 182500,
+        "employees": 182500,
         "year of operating": 1998
       }
     },
@@ -81,7 +81,7 @@
       "membership level": null,
       "other information": {
         "founder": "Steve Jobs",
-        "employess": 164000,
+        "employees": 164000,
         "year of operating": 1976
       }
     },
@@ -98,7 +98,7 @@
       "membership level": null,
       "other information": {
         "founder": "Lee Byung-chul",
-        "employess": 266673,
+        "employees": 266673,
         "year of operating": 1938
       }
     },
@@ -115,7 +115,7 @@
       "membership level": null,
       "other information": {
         "founder": "Michael Dell",
-        "employess": 133000,
+        "employees": 133000,
         "year of operating": 1984
       }
     },
@@ -132,7 +132,7 @@
       "membership level": null,
       "other information": {
         "founder": "John Stith Pemberton",
-        "employess": 70000,
+        "employees": 70000,
         "year of operating": 1892
       }
     }
