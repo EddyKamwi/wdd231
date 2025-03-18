@@ -4,14 +4,15 @@ const thumbnail = document.getElementById("thumbnail");
 list.addEventListener("click", () => {
   list.classList.toggle("button-active");
   thumbnail.classList.toggle("button-active");
+  cards.classList.toggle("grid");
   document.querySelectorAll("section").forEach((tag) => {
     tag.classList.toggle("list");
   });
-  cards.classList.toggle("main-container");
 });
 thumbnail.addEventListener("click", () => {
   list.classList.toggle("button-active");
   thumbnail.classList.toggle("button-active");
+  cards.classList.toggle("grid");
   document.querySelectorAll("section").forEach((tag) => {
     tag.classList.toggle("list");
   });

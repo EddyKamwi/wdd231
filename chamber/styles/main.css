@@ -8,10 +8,16 @@
   box-sizing: border-box;
   overflow: wrap;
 }
-main{
-    margin: 0 auto;
-    text-align: center;
-    padding: 1rem;
+main {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+.viewing{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap:1rem;
 }
 
 .viewing button {
@@ -28,37 +34,34 @@ button:hover {
   background-color: lightgreen;
   color: #000;
 }
-
-#main-container {
-  padding: .5rem .2rem;
+.grid{
   display: grid;
   grid-template-columns: 1fr;
-  place-items: center;
-  gap: 1rem;
+  min-width: 320px;
+  gap:1rem;
 }
-
-section {
+section{
   width: 100%;
-  padding: 0.5rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  margin: 1rem auto;
+  padding: .3rem;
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
-}
 
-.container {
-  padding: .4rem .2rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-  gap: .2rem;
+}
+section img{
+  margin: 0 auto;
 }
 .list {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 33.3%);
-  place-self: center;
-}
-section a{
-    text-wrap:wrap ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
+  margin: 1rem 0;
+  padding:.2rem 1rem;
 }
 .list img {
   display: none;
