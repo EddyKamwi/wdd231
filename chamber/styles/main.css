@@ -1,12 +1,26 @@
 :root {
-  --primary: #000;
-  --secondary: #fff;
+  --primary: #000022;
+  --secondary: #E28413;
+  --asset: #FBF5F3;
+  --text-light: var(--asset);
+  --text-dark: var(--primary);
+  --text-secondary: var(--secondary);
+  --bg-light: #fff;
+  --bg-asset: var(--asset);
+  --bg-primary: var(--primary);
+  --bg-secondary: var(--secondary);
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   overflow: wrap;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
 }
 main {
   margin: 0 auto;
@@ -45,10 +59,11 @@ section{
   display: flex;
   flex-direction: column;
   justify-self: center;
-  align-self: center;
+  justify-content: center;
   margin: 1rem auto;
   padding: .3rem;
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
+  height: 240px;
 
 }
 section img{
@@ -58,10 +73,12 @@ section img{
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
   margin: 1rem 0;
+  height: auto;
   padding:.2rem 1rem;
+  gap: 1rem;
 }
 .list img {
   display: none;
