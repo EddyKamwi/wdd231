@@ -58,7 +58,7 @@ section {
   place-self: center;
 }
 section a{
-    text-wrap: 
+    text-wrap:wrap ;
 }
 .list img {
   display: none;
