@@ -1,6 +1,6 @@
 :root {
   --primary: #000022;
-  --secondary: #E28413;
+  --secondary: #7e4602;
   --asset: #FBF5F3;
   --text-light: var(--asset);
   --text-dark: var(--primary);
@@ -48,6 +48,7 @@ nav a {
   text-decoration: none;
   display: block;
   color: var(--text-dark);
+  font-weight:600;
 }
 
 figure,
