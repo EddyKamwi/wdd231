@@ -2,33 +2,36 @@
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  header .top-div{
+  header{
+    display: flex;
+  }
+  header .top-div {
     justify-content: space-around;
-}
-.top-div span{
+  }
+  .top-div span {
     font-size: 2rem;
-}
-.nav-icons{
+  }
+  .nav-icons {
     display: none;
-}
-.top-div{
+  }
+  .top-div {
     justify-content: space-around;
-}
-nav{
+  }
+  nav {
     height: auto;
     flex-direction: row;
     justify-content: space-evenly;
-}
+  }
 }
 
 @media screen and (min-width: 720px) {
-    .grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
+}
 
-  @media screen and (min-width: 1080px) {
-    .grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
+@media screen and (min-width: 1080px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
   }
+}
