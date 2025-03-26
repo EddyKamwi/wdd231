@@ -56,8 +56,4 @@ const data = async () => {
 
 data();
 
-// data()[2].forEach((company) => {
-//   const div = document.createComment("div");
-//   div.textContent = company;
-//   document.querySelector("main").appendChild(div);
-// });
+

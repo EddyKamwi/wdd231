@@ -1,7 +1,7 @@
 :root {
   --primary: #000022;
   --secondary: #7e4602;
-  --asset: #FBF5F3;
+  --asset: #fbf5f3;
   --text-light: var(--asset);
   --text-dark: var(--primary);
   --text-secondary: var(--secondary);
@@ -15,11 +15,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: small;
+  font-weight: 400;
+  font-style: normal;
+  font-size: small;
 }
 
 header .top-div {
@@ -44,13 +44,64 @@ nav {
 }
 
 nav a {
-  margin: .5rem;
+  margin: 0.5rem;
   text-decoration: none;
   display: block;
   color: var(--text-dark);
-  font-weight:600;
+  font-weight: 600;
+}
+nav button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+}
+/* Home page start here */
+
+.hero {
+  background: url("../images/hero.webp") center center fixed;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.hero-action {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  padding: 1rem;
+  border: none;
+}
+.w-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+}
+.w-card h3 {
+  text-transform: capitalize;
+  background-color: var(--bg-secondary);
+  color: var(--text-light);
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
+.w-card.fixed {
+  max-width: 320px;
+  width: 100%;
+  flex: 1;
+}
+.w-card.fill {
+  flex: 2;
+}
+/* Home page styling ends here */
 figure,
 figcaption {
   text-align: center;
@@ -62,7 +113,7 @@ figcaption {
 
 nav a:hover {
   color: var(--text-secondary);
-  transform: translateY(-2px)
+  transform: translateY(-2px);
 }
 
 .active {
@@ -71,7 +122,7 @@ nav a:hover {
 
 .nav-icons {
   cursor: pointer;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   font-size: 1.5rem;
 }
@@ -86,7 +137,6 @@ nav a:hover {
   top: 0;
   background-color: rgb(210, 19, 19);
   color: var(--text-light);
-
 }
 
 h1 {
@@ -111,15 +161,15 @@ ul {
 
 .navs {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   justify-content: space-evenly;
-  padding: 1rem 1rem .3rem 1rem;
+  padding: 1rem 1rem 0.3rem 1rem;
   border-bottom: rgb(0, 0, 34, 0.5) solid;
 }
 
 .navs span {
   background-color: var(--secondary);
-  padding: .2rem 1rem;
+  padding: 0.2rem 1rem;
   width: 100px;
   text-align: center;
   cursor: pointer;
@@ -133,14 +183,15 @@ ul {
 main {
   margin: 0 auto;
   text-align: center;
-  padding: 1rem;
 }
-h1{text-align: left;}
-.viewing{
+h1 {
+  text-align: left;
+}
+.viewing {
   display: flex;
   justify-content: center;
   width: 100%;
-  gap:1rem;
+  gap: 1rem;
   margin: 1rem auto;
 }
 
@@ -158,25 +209,24 @@ button:hover {
   background-color: lightgreen;
   color: #000;
 }
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr;
   min-width: 320px;
-  gap:1rem;
+  gap: 1rem;
 }
-section{
+section {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-self: center;
   justify-content: center;
   margin: 1rem auto;
-  padding: .3rem;
+  padding: 0.3rem;
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
   height: 240px;
-
 }
-section img{
+section img {
   margin: 0 auto;
 }
 .list {
@@ -187,7 +237,7 @@ section img{
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.82);
   margin: 1rem 0;
   height: auto;
-  padding:.2rem 1rem;
+  padding: 0.2rem 1rem;
   gap: 1rem;
 }
 .list img {
