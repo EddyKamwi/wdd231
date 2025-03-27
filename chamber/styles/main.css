@@ -25,8 +25,19 @@ body {
 header .top-div {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+}
+.brand{
+  border:none;
+  display: block;
+  background-color: transparent;
+  width:140px;
+}
+.brand-name{
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.brand-subtitle{
+  font-size: .8rem;
 }
 
 nav {
@@ -80,6 +91,7 @@ nav button:hover {
 }
 .w-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   gap: 0.5rem;
 }
@@ -93,14 +105,6 @@ nav button:hover {
   text-align: left;
 }
 
-.w-card.fixed {
-  max-width: 320px;
-  width: 100%;
-  flex: 1;
-}
-.w-card.fill {
-  flex: 2;
-}
 /* Home page styling ends here */
 figure,
 figcaption {
@@ -120,13 +124,19 @@ nav a:hover {
   color: var(--text-secondary);
 }
 
-.nav-icons {
+.nav-icons{
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   font-size: 1.5rem;
 }
-
+.nav-icons.bars, .nav-btn{
+  font-size: 5rem;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.bars:hover, .nav-btn:hover{background-color: transparent;}
 .nav-icons:hover {
   transform: scale(1.1);
 }
@@ -183,6 +193,7 @@ ul {
 main {
   margin: 0 auto;
   text-align: center;
+  padding: .5rem;
 }
 h1 {
   text-align: left;

@@ -1,8 +1,11 @@
+const button = document.getElementById("nav-btn");
 const bars = document.getElementById("menu-bars");
 const close = document.getElementById("menu-close");
 const nav = document.querySelector("nav");
 
-let clicked = false;
+var clicked = false;
+var click = false;
+
 bars.addEventListener("click", () => {
   if (clicked == false) {
     nav.style.height = "200px";
@@ -17,14 +20,12 @@ close.addEventListener("click", () => {
   }
 });
 
-const button = document.getElementById("nav-btn");
-clicked = true;
 button.addEventListener("click", () => {
-  if (clicked) {
+  if (!click) {
     button.innerText = "◑";
-    clicked = false;
+    click = true;
   } else {
     button.innerHTML = "◐";
-    clicked = true;
+    click = false;
   }
 });

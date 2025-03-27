@@ -1,84 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Chamber of Commerce</title>
-    <meta
-      name="description"
-      content="Chamber of Commerce Directory Page containing more than three companies"
-    />
-    <meta name="author" content="Edward Kamwi" />
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 
-    <!-- facebook social media meta -->
-    <meta property="og:title" content="Top ten Companies" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="https://eddykamwi.github.io/wdd231/chamber/images/favicon.ico"
-    />
-    <meta
-      property="og:url"
-      content="https://eddykamwi.github.io/wdd231/chamber/directory.html"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Chamber of Commerce</title>
+  <meta name="description" content="Chamber of Commerce Directory Page containing more than three companies" />
+  <meta name="author" content="Edward Kamwi" />
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 
-    <!-- google font open sans -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+  <!-- facebook social media meta -->
+  <meta property="og:title" content="Top ten Companies" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://eddykamwi.github.io/wdd231/chamber/images/favicon.ico" />
+  <meta property="og:url" content="https://eddykamwi.github.io/wdd231/chamber/directory.html" />
 
-    <!-- local files -->
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/large-screen.css" />
-    <script src="scripts/main.js" defer></script>
-    <script src="scripts/menu.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div class="top-div">
-        <img src="images/favicon.ico" alt="Logo" width="120" height="120" />
+  <!-- google font open sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
 
-        <div class="nav-icons" id="menu-bars">≡</div>
+  <!-- local files -->
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/large-screen.css" />
+  <script src="scripts/menu.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="top-div">
+      <img src="images/favicon.ico" alt="Logo" width="120" height="120" />
+      <button class="brand"><span class="brand-name">E.Kamwi</span><br /><span class="brand-subtitle">Chamber of
+          Commerce</span></button>
+      <button id="nav-btn" class="nav-btn">◐</button>
+      <div class="nav-icons bars" id="menu-bars">≡</div>
+    </div>
+    <nav>
+      <span class="close nav-icons" id="menu-close">×</span>
+      <a href="#" class="active">Home</a>
+      <a href="./directory.html">Directory</a>
+      <a href="#">Join</a>
+      <a href="#">Discover</a>
+      <a href="#" id="nav-btn">◐</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <button class="hero-action">Keynote Tickets</button>
+    </section>
+    <section>
+      <h1>Home</h1>
+      <div class="w-container">
+        <div class="w-card fill">
+          <h3>Events</h3>
+        </div>
+        <div class="w-card fixed">
+          <h3>current weather</h3>
+        </div>
+        <div class="w-card fixed">
+          <h3>weather forecast</h3>
+        </div>
       </div>
-      <nav>
-        <span class="close nav-icons" id="menu-close">×</span>
-        <a href="#" class="active">Home</a>
-        <a href="./directory.html">Directory</a>
-        <a href="#">Join</a>
-        <a href="#">Discover</a>
-        <button id="nav-btn">◐</button>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <button class="hero-action">Keynote Tickets</button>
-      </section>
-      <section>
-        <h1>Home</h1>
-        <div class="w-container">
-          <div class="w-card fill">
-            <h3>Events</h3>
-          </div>
-          <div class="w-card fixed"><h3>current weather</h3></div>
-          <div class="w-card fixed"><h3>weather forecast</h3></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>
-        ©<span id="current_year">2025</span> | Edward Kamwi | Allrights Reserved
-      </p>
-      <p>Last modified: <span id="last_modified">2025</span></p>
-    </footer>
-    <script src="scripts/dates.js"></script>
-  </body>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>
+      ©<span id="current_year">2025</span> | Edward Kamwi | Allrights Reserved
+    </p>
+    <p>Last modified: <span id="last_modified">2025</span></p>
+  </footer>
+  <script src="scripts/dates.js"></script>
+</body>
+
 </html>

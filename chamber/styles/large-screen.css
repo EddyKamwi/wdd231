@@ -11,6 +11,7 @@
   .top-div span {
     font-size: 2rem;
   }
+  .nav-btn{display: none}
   .nav-icons {
     display: none;
   }
@@ -22,6 +23,20 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .brand{
+    border:none;
+    display: block;
+    background-color: transparent;
+    width:140px;
+  }
+  .brand-name{
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  .brand-subtitle{
+    font-size: .8rem;
+  }
+  
 }
 
 @media screen and (min-width: 720px) {
