@@ -38,6 +38,13 @@
 }
 
 @media screen and (min-width: 720px) {
+   .hero {
+     background: url("../images/hero-big.webp") center center no-repeat;
+    background-size:cover; 
+   }   
+  .w-card h2 {
+    text-align: left;
+  }
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }

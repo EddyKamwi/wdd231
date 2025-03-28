@@ -82,8 +82,9 @@ nav button:hover {
 /* Home page start here */
 
 .hero {
-  background: url("../images/hero.webp") center center fixed;
-  height: 50vh;
+  background: url("../images/hero-small.webp") center center;
+  background-size: cover;
+  height: 60vh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -93,7 +94,7 @@ nav button:hover {
   bottom: 20%;
   right: 10%;
   padding: 1rem;
-  border: none;
+  border: solid 2px rgb(0,0 0,.8);
 }
 .w-container {
   display: flex;
@@ -108,13 +109,13 @@ nav button:hover {
   background-color: var(--bg-asset);
   padding: 0;
 }
-.w-card h3 {
+.w-card h2 {
   text-transform: capitalize;
   background-color: var(--bg-secondary);
   color: var(--text-light);
   padding: 0.5rem;
   margin-bottom: 1rem;
-  text-align: left;
+  text-align: center;
 }
 .b-container {
   display: grid;
@@ -123,7 +124,6 @@ nav button:hover {
   grid-template-columns: repeat(1, auto);
 }
 .b-card {
-  /* max-width: 340px; */
   background-color: var(--bg-asset);
   padding: 0.7rem;
   border-radius: 15px;
@@ -304,9 +304,13 @@ footer {
   margin: 1rem auto;
 }
 
-footer .social{ margin: 1rem;}
+footer .social {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
 
-footer .social svg{
-  width: 40px;
-  height: 30px;
+footer .social svg {
+  width: 50px;
+  height: 40px;
 }
