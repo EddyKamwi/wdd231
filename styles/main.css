@@ -141,6 +141,9 @@ ul {
     gap: 1rem;
     padding: 2rem 0;
 }
+.c-container{
+    min-height: 350px;
+}
 
 .courses span {
     width: 100%;
