@@ -2,27 +2,27 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Chamber of Commerce</title>
-  <meta name="description" content="Chamber of Commerce Directory Page containing more than three companies" />
-  <meta name="author" content="Edward Kamwi" />
-  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Chamber of Commerce Directory Page containing more than three companies">
+  <meta name="author" content="Edward Kamwi">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 
   <!-- facebook social media meta -->
-  <meta property="og:title" content="Top ten Companies" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://eddykamwi.github.io/wdd231/chamber/images/favicon.ico" />
-  <meta property="og:url" content="https://eddykamwi.github.io/wdd231/chamber/directory.html" />
+  <meta property="og:title" content="Top ten Companies">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://eddykamwi.github.io/wdd231/chamber/images/favicon.ico">
+  <meta property="og:url" content="https://eddykamwi.github.io/wdd231/chamber/directory.html">
 
   <!-- google font open sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <!-- local files -->
-  <link rel="stylesheet" href="styles/main.css" />
-  <link rel="stylesheet" href="styles/large-screen.css" />
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/large-screen.css">
   <script src="scripts/menu.js" defer></script>
   <script src="scripts/main.js" defer></script>
 
@@ -31,8 +31,8 @@
 <body>
   <header>
     <div class="top-div">
-      <img src="images/favicon.ico" alt="Logo" width="120" height="120" />
-      <button class="brand"><span class="brand-name">E.Kamwi</span><br /><span class="brand-subtitle">Chamber of
+      <img src="images/favicon.ico" alt="Logo" width="120" height="120">
+      <button class="brand"><span class="brand-name">E.Kamwi</span><br><span class="brand-subtitle">Chamber of
           Commerce</span></button>
       <button id="nav-btn" class="nav-btn">◐</button>
       <div class="nav-icons bars" id="menu-bars">≡</div>
@@ -50,7 +50,7 @@
     <section class="hero">
       <button class="hero-action">Keynote Tickets</button>
     </section>
-    <section>
+    <div>
       <h1>Home</h1>
       <div class="w-container">
         <div class="w-card fill">
@@ -63,12 +63,23 @@
           <h3>weather forecast</h3>
         </div>
       </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
+    </div>
+    <div>
+      <div class="b-card">
+        <h3 class="b-title">Business Name</h3>
+        <p class="b-tagName">Business Tag Line</p>
+        <hr>
+        <div class="b-body">
+          <img src="./data/members.json" alt="Logo">
+          <div>
+            <p><span>Email: </span> info@gmail.com</p>
+            <p><span>Phone: </span> 440-222-1112</p>
+            <p><span>Url: </span> mybusiness.com</p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+
   </main>
   <footer>
     <p>

@@ -8,9 +8,6 @@
   header .top-div {
     justify-content: space-around;
   }
-  .top-div span {
-    font-size: 2rem;
-  }
   .nav-btn{display: none}
   .nav-icons {
     display: none;
@@ -23,18 +20,15 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .brand{
-    border:none;
-    display: block;
-    background-color: transparent;
-    width:140px;
-  }
-  .brand-name{
+
+  .brand:hover{background-color: transparent;}
+  .top-div .brand-name{
     font-weight: 600;
     font-size: 1.8rem;
   }
-  .brand-subtitle{
-    font-size: .8rem;
+  .top-div .brand-subtitle{
+    font-size: .9rem;
+    margin-left: 0;
   }
   
 }
@@ -42,6 +36,14 @@
 @media screen and (min-width: 720px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .w-container{
+    flex-direction: row;
+  }
+  .w-card.fixed{flex:1}
+  .w-card.fill{flex:2}
+  .brand{
+    width:240px;
   }
 }
 
