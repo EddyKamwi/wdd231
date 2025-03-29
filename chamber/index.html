@@ -24,7 +24,8 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/large-screen.css">
   <script src="scripts/menu.js" defer></script>
-  <!-- <script src="scripts/main.js" defer></script> -->
+  <script src="scripts/dates.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
 
 </head>
 
@@ -57,52 +58,18 @@
         </div>
         <div class="w-card fixed">
           <h2>current weather</h2>
+          <div>
+            <img src="" alt="">
+            <p id="c-weather-span"></p>
+          </div>
         </div>
         <div class="w-card fixed">
           <h2>weather forecast</h2>
+          <p id="w-forcast"></p>
         </div>
       </div>
     </div>
-    <div class="b-container">
-      <div class="b-card">
-        <h2 class="b-title">Business Name</h2>
-        <p class="b-tagName">Business Tag Line</p>
-        <hr>
-        <div class="b-body">
-          <img src="./images/hero.webp" alt="Logo" height="60" width="65" loading="lazy">
-          <div>
-            <p><span>Email: </span> info@gmail.com</p>
-            <p><span>Phone: </span> 440-222-1112</p>
-            <p><span>Url: </span> mybusiness.com</p>
-          </div>
-        </div>
-      </div>
-      <div class="b-card">
-        <h2 class="b-title">Business Name</h2>
-        <p class="b-tagName">Business Tag Line</p>
-        <hr>
-        <div class="b-body">
-          <img src="./images/hero.webp" alt="Logo" height="60" width="65" loading="lazy">
-          <div>
-            <p><span>Email: </span> info@gmail.com</p>
-            <p><span>Phone: </span> 440-222-1112</p>
-            <p><span>Url: </span> mybusiness.com</p>
-          </div>
-        </div>
-      </div>
-      <div class="b-card">
-        <h2 class="b-title">Business Name</h2>
-        <p class="b-tagName">Business Tag Line</p>
-        <hr>
-        <div class="b-body">
-          <img src="./images/hero.webp" alt="Logo" height="60" width="65" loading="lazy">
-          <div>
-            <p><span>Email: </span> info@gmail.com</p>
-            <p><span>Phone: </span> 440-222-1112</p>
-            <p><span>Url: </span> mybusiness.com</p>
-          </div>
-        </div>
-      </div>
+    <div class="b-container" id="bCard">
     </div>
 
   </main>
@@ -141,7 +108,8 @@
       <p>Last modified: <span id="last_modified">2025</span></p>
     </div>
   </footer>
-  <script src="scripts/dates.js"></script>
+
+
 </body>
 
 </html>

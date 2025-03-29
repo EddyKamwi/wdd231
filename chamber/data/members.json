@@ -2,15 +2,18 @@
   "companies": [
     {
       "names": "Qualis Designers",
+      "tagLine": "Pushing Digital business",
       "address": {
         "street": "3628 Mkusi Ave",
         "province": "Lusaka",
         "country": "Zambia"
       },
+
       "cell": ["+26 097-767-5885"],
       "website": "https://eddykamwi.github.io/qualis",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_1.webp",
-      "membership_level": null,
+      "email": "qualisdesigners@gmail.com",
+      "iconUrl": "./images/company_1.webp",
+      "membership_level": "Gold",
       "otherInfo": {
         "founder": "Edward Kamwi",
         "employees": 2,
@@ -19,6 +22,7 @@
     },
     {
       "names": "Facebook (Meta Platforms)",
+      "tagLine": "Bring the World Closer Together",
       "address": {
         "street": "1 Hacker Way",
         "province": "California",
@@ -26,8 +30,9 @@
       },
       "cell": ["+1 650-543-4800"],
       "website": "https://about.meta.com",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_2.webp",
-      "membership_level": null,
+      "email": "info@meta.com",
+      "iconUrl": "./images/company_2.webp",
+      "membership_level": "Gold",
       "otherInfo": {
         "founder": "Mark Zuckerberg",
         "employees": 67600,
@@ -36,6 +41,7 @@
     },
     {
       "names": "Microsoft",
+      "tagLine": "Be What's Next",
       "address": {
         "street": "One Microsoft Way",
         "province": "Washington",
@@ -43,8 +49,9 @@
       },
       "cell": ["+1 425-882-8080"],
       "website": "https://www.microsoft.com",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_3.webp",
-      "membership_level": null,
+      "email": "support@microsoft.com",
+      "iconUrl": "./images/company_3.webp",
+      "membership_level": "Silver",
       "otherInfo": {
         "founder": "Bill Gates",
         "employees": 221000,
@@ -53,6 +60,7 @@
     },
     {
       "names": "Google (Alphabet Inc.)",
+      "tagLine": "Do the Right Thing",
       "address": {
         "street": "1600 Amphitheatre Parkway",
         "province": "California",
@@ -60,8 +68,9 @@
       },
       "cell": ["+1 650-253-0000"],
       "website": "https://about.google",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_4.webp",
-      "membership_level": null,
+      "email": "support@google.com",
+      "iconUrl": "./images/company_4.webp",
+      "membership_level": "Silver",
       "otherInfo": {
         "founder": "Larry Page & Sergey Brin",
         "employees": 182500,
@@ -70,6 +79,7 @@
     },
     {
       "names": "Apple Inc.",
+      "tagLine": "The only thing that’s changed is everything.",
       "address": {
         "street": "One Apple Park Way",
         "province": "California",
@@ -77,8 +87,9 @@
       },
       "cell": ["+1 408-996-1010"],
       "website": "https://www.apple.com",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_5.webp",
-      "membership_level": null,
+      "email": "info@apple.com",
+      "iconUrl": "./images/company_5.webp",
+      "membership_level": "Bronze",
       "otherInfo": {
         "founder": "Steve Jobs",
         "employees": 164000,
@@ -87,6 +98,7 @@
     },
     {
       "names": "Samsung Electronics",
+      "tagLine": "Do What You Can’t",
       "address": {
         "street": "129 Samsung-ro",
         "province": "Gyeonggi-do",
@@ -94,8 +106,9 @@
       },
       "cell": ["+82 2-2255-0114"],
       "website": "https://www.samsung.com",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_6.webp",
-      "membership_level": null,
+      "email": "info@samsung.com",
+      "iconUrl": "./images/company_6.webp",
+      "membership_level": "Bronze",
       "otherInfo": {
         "founder": "Lee Byung-chul",
         "employees": 266673,
@@ -104,6 +117,7 @@
     },
     {
       "names": "Dell Technologies",
+      "tagLine": "The power to do more.",
       "address": {
         "street": "One Dell Way",
         "province": "Texas",
@@ -111,8 +125,9 @@
       },
       "cell": ["+1 800-999-3355"],
       "website": "https://www.dell.com",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_7.webp",
-      "membership_level": null,
+      "email": "support@dell.com",
+      "iconUrl": "./images/company_7.webp",
+      "membership_level": "Gold",
       "otherInfo": {
         "founder": "Michael Dell",
         "employees": 133000,
@@ -121,6 +136,7 @@
     },
     {
       "names": "The Coca-Cola Company",
+      "tagLine": "Taste the Feeling",
       "address": {
         "street": "One Coca-Cola Plaza",
         "province": "Georgia",
@@ -128,8 +144,9 @@
       },
       "cell": ["+1 404-676-2121"],
       "website": "https://www.coca-colacompany.com",
-      "iconUrl": "https://eddykamwi.github.io/wdd231/chamber/images/company_8.webp",
-      "membership_level": null,
+      "email": "info@coca-colacompany.com",
+      "iconUrl": "./images/company_8.webp",
+      "membership_level": "Silver",
       "otherInfo": {
         "founder": "John Stith Pemberton",
         "employees": 70000,

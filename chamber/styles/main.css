@@ -116,6 +116,12 @@ nav button:hover {
   margin-bottom: 1rem;
   text-align: center;
 }
+#w-forcast,#c-weather-span {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
 .b-container {
   display: grid;
   margin: 1rem auto;
