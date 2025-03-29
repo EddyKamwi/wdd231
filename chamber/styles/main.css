@@ -85,8 +85,7 @@ nav button:hover {
   background: url("../images/hero-small.webp") center center;
   background-size: cover;
   height: 60vh;
-  margin: 0;
-  padding: 0;
+  width: 100%;
   position: relative;
 }
 .hero-action {
