@@ -18,11 +18,12 @@
   <!-- google font open sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
 
   <!-- local files -->
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/large-screen.css">
+
   <script src="scripts/menu.js" defer></script>
   <script src="scripts/dates.js" defer></script>
   <script src="scripts/weather.js" defer></script>
@@ -32,7 +33,7 @@
 <body>
   <header>
     <div class="top-div">
-      <img src="images/favicon.ico" alt="favicon" width="120" height="106" loading="lazy">
+      <img src="images/favicon.webp" alt="favicon" width="120" height="106" loading="lazy">
       <button class="brand"><span class="brand-name">E.Kamwi</span><br><span class="brand-subtitle">Chamber of
           Commerce</span></button>
       <button id="nav-btn" class="nav-btn">◐</button>
@@ -59,8 +60,8 @@
         <div class="w-card fixed">
           <h2>current weather</h2>
           <div class="w-body">
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" height="80" width="80" loading="lazy"
-              id="weatherIcon" />
+            <img fetchpriority="high" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" height="80"
+              width="80" loading="lazy" id="weatherIcon" />
             <p id="c-weather-span"></p>
           </div>
         </div>
