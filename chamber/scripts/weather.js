@@ -30,7 +30,7 @@ async function main() {
     "http://api.openweathermap.org/data/2.5/forecast?lat=-15.33&lon=28.44&appid=c75f603870e497bd2c733194575b3de1&units=metric"
   );
   const companies = await weather(
-    "http://127.0.0.1:5500/chamber/data/members.json"
+    "https://eddykamwi.github.io/wdd231/chamber/data/members.json"
   );
 
   const sunrise = `${new Date(data.sys.sunrise * 1000).getHours()}:${new Date(
