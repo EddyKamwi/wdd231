@@ -94,7 +94,7 @@ nav button:hover {
   bottom: 20%;
   right: 10%;
   padding: 1rem;
-  border: solid 2px rgb(0,0 0,.8);
+  border: solid 2px rgb(0, 0, 0, 0.8);
 }
 .w-container {
   display: flex;
