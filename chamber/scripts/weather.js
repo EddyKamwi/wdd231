@@ -84,8 +84,10 @@ async function main() {
   const lowTemp = `${data.main.temp_min}°`;
   const highTemp = `${data.main.temp_max}°`;
   const descrip = `${data.weather[0].description}`;
+  const icon = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
   const temp = `${data.main.temp}°`;
 
+  document.getElementById("weatherIcon").setAttribute("src", icon);
   document.getElementById("c-weather-span").innerHTML = `
       ${temp} <br>
       ${descrip} <br>

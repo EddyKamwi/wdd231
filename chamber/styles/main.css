@@ -122,6 +122,7 @@ nav button:hover {
   font-size: 1.2rem;
   text-transform: capitalize;
 }
+.w-body{display: flex;align-items: center;}
 .b-container {
   display: grid;
   margin: 1rem auto;
