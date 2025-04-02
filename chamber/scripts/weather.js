@@ -7,7 +7,7 @@ const dayOfWeek = (number) => {
   } else if (num === 3) {
     return "Wednesday";
   } else if (num === 4) {
-    return "Thirsday";
+    return "Thursday";
   } else if (num === 5) {
     return "Friday";
   } else if (num === 6) {
