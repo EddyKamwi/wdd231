@@ -268,7 +268,9 @@ input,select{
   transform: rotate(-3600deg);
   transition:transform 5s ease;
 }
-
+.f-container{
+margin: 2rem auto;
+}
 /* Join page styling ends here */
 
 figure,
