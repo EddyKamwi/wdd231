@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page | Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce Home Page containing showcasing a number of Companies">
+    <meta name="author" content="Edward Kamwi">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- facebook social media meta -->
+    <meta property="og:title" content="Top ten Companies">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://eddykamwi.github.io/wdd231/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://eddykamwi.github.io/wdd231/chamber/directory.html">
+
+    <!-- google font open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+
+    <!-- local files -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large-screen.css">
+
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="top-div">
+            <img src="images/favicon.webp" alt="favicon" width="120" height="106" loading="lazy">
+            <button class="brand"><span class="brand-name">E.Kamwi</span><br><span class="brand-subtitle">Chamber of
+                    Commerce</span></button>
+            <button id="nav-btn" class="nav-btn">◐</button>
+            <div class="nav-icons bars" id="menu-bars">≡</div>
+        </div>
+        <nav>
+            <span class="close nav-icons" id="menu-close">×</span>
+            <a href="./index.html">Home</a>
+            <a href="./directory.html">Directory</a>
+            <a href="./join.html" class="active">Join</a>
+            <a href="#">Discover</a>
+            <a href="#">◐</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-join">
+            <h1>Join our Chamber of Commerce</h1>
+        </div>
+        <div class="f-container">
+            <form action="thankyou.html" method="get">
+                <h2>Create your account</h2>
+                <!-- applicant's first name, text type, required, name, title, and correct autocomplete value so this field autofills with the first name -->
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" title="firstname" autocomplete="name">
+                <!-- applicant's last name, text type, required, name, title, and correct autocomplete value so this field autofills with the last name -->
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" title="lastname" autocomplete="family-name">
+                <!-- applicant's organizational title within their organization, text type, name, title, autocomplete value of "organization-title", and pattern to only accept alpha characters, hyphens, and spaces with a minimum of seven (7) characters using a regular expression -->
+                <label for="title">Organizational Title:</label>
+                <input type="text" name="title" id="title" title="title" autocomplete="organization-title">
+                <!-- an email address, email type, required, name, title, correct autocomplete value, and placeholder which contains an example email input. -->
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" id="email" title="email" required autocomplete="email"
+                    placeholder="example@gmail.com">
+                <!-- a mobile phone number, telephone type, required, name, title, and correct autocomplete value -->
+                <label for="phone">Mobile Number:</label>
+                <input type="tel" name="phone" id="phone" title="phone" required autocomplete="tel">
+                <!-- the business/organization's name, text type, required, name, title, and correct autocomplete value of "organization". -->
+                <label for="businessname">Business Name:</label>
+                <input type="text" name="businessname" id="businessname" title="businessname" required
+                    autocomplete="organization">
+
+                <!-- a membership level selection using an appropriate form field of your choosing to allow the user to select a membership level. There are four membership levels.
+                    NP Membership is for non profit organizations and there is no fee.
+                    Bronze Membership
+                    Silver Membership
+                    Gold Membership -->
+                <label for="membership">Membership</label>
+                <select name="membership" id="membership" title="membership">
+                    <option selected disabled>Select a Membership Level</option>
+                    <option value="np">Non Profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+                <!-- a business/organization's description, text area, title, and name -->
+                <label for="description">Description:</label>
+                <textarea name="description" id="description" title="description"></textarea>
+                <!-- the timestamp, hidden type, name, and id. This field contains the current date and time that the form was loaded by the user. -->
+                <input type="hidden" name="timestamp" id="timestamp" title="timestamp">
+                <!-- A form submission button using input of type submit that is properly labeled in the text node of the button. -->
+                <input type="submit" value="Create Account" id="submit">
+            </form>
+            <aside>
+                <div class="m-card">
+                    <p>Non Profit Membership Level</p>
+                    <button>Learn More</button>
+                    <span class="star">⁕</span>
+                </div>
+                <div class="m-card">
+                    <p>Bronze Membership Level</p>
+                    <span class="star">⁕</span>
+                    <button>Learn More</button>
+                </div>
+                <div class="m-card">
+                    <p>Silver Membership Level</p>
+                    <span class="star">⁕</span>
+                    <button>Learn More</button>
+                </div>
+                <div class="m-card">
+                    <p>Gold Membership Level</p>
+                    <span class="star">⁕</span>
+                    <button>Learn More</button>
+                </div>
+            </aside>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="company">
+            <h2>E.Kamwi Chamber of Commerce</h2>
+            <p>123 Some Street,<br>E.Kamwi, Mail 123 <br>info@ekamwicc.org <br> (123) 222-3455</p>
+        </div>
+        <div class="social">
+            <!-- youtube svg-->
+            <a href="https://www.youtube.com/@ekamwi">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                </svg><br>Youtube
+
+            </a>
+            <!-- x-twetter svg -->
+            <a href="https://twitter.com">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z" />
+                </svg><br>Twitter</a>
+            <!-- linkedIn svg  -->
+            <a href="https://www.linkedin.com/in/edward-kamwi"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                </svg><br>LinkedIn</a>
+        </div>
+        <div class="detail">
+            <p>
+                WDD231 Class Project, <br>Edward Kamwi <br>
+                ©<span id="current_year">2025</span> E.Kamwi Chamber of Commerce
+            </p>
+            <p>Last modified: <span id="last_modified">2025</span></p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
