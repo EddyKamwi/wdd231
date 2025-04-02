@@ -201,7 +201,8 @@ nav button:hover {
   font-weight: 100;
   text-align: center;
 }
-form{
+
+form {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -212,10 +213,12 @@ form{
   padding: 1rem;
   background-color: var(--bg-asset);
 }
-label{
+
+label {
   margin: 1rem 0 .3rem 0;
 }
-#submit{
+
+#submit {
   margin: 1.5rem 0 .3rem 0;
   border: var(--text-dark) solid 1px;
   color: var(--text-light);
@@ -223,19 +226,26 @@ label{
   padding: 1rem;
   cursor: pointer;
 }
-label{font-weight: 600;}
-input,select{
-  padding:.3rem;
+
+label {
+  font-weight: 600;
+}
+
+input,
+select {
+  padding: .3rem;
   border-radius: 5px;
 }
-#description{
+
+#description {
   border-radius: 5px;
   height: 60px;
-  border:solid 2px;
-  padding:.3rem;
+  border: solid 2px;
+  padding: .3rem;
 
 }
-.m-card{
+
+.m-card {
   height: 140px;
   display: grid;
   place-content: center;
@@ -247,30 +257,35 @@ input,select{
   gap: 1rem;
   border-radius: 15px;
 }
-.m-card button{
-  padding:.6rem 3rem;
+
+.m-card button {
+  padding: .6rem 3rem;
   cursor: pointer;
 }
-.m-card button:hover{
+
+.m-card button:hover {
   border: none;
   border: var(--primary) solid 1px;
 }
 
-.m-card p{
+.m-card p {
   font-size: 1.3rem;
 }
-.m-card .star{
-  font-size:15rem;
+
+.m-card .star {
+  font-size: 15rem;
   position: absolute;
   right: -3rem;
   bottom: -1rem;
   color: var(--primary);
   transform: rotate(-3600deg);
-  transition:transform 5s ease;
+  transition: transform 5s ease;
 }
-.f-container{
-margin: 2rem auto;
+
+.f-container {
+  margin: 2rem auto;
 }
+
 /* Join page styling ends here */
 
 figure,
@@ -290,6 +305,48 @@ nav a:hover {
 .active {
   color: var(--text-secondary);
 }
+
+:modal {
+  max-width: 480px;
+  position: relative;
+  padding: 2rem;
+  display: grid;
+  margin: auto;
+}
+
+:modal * {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+}
+
+:modal form {
+  position: relative;
+}
+
+:modal p{
+  margin: 1rem;
+}
+
+.close-btn {
+  position: absolute;
+  right: -2rem;
+  top: -2rem;
+  height: 50px;
+  font-size: 1.2rem;
+  width: 50px;
+  background-color: transparent;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+  transform: translateY(3px);
+  color: var(--text-light);
+  background-color: transparent;
+}
+
 
 .nav-icons {
   cursor: pointer;
