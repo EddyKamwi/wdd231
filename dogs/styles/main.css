@@ -1,0 +1,13 @@
+;:root{
+    --primary:#CA1551;
+    --secondar:#FB4D3D;
+    --asset-1:#03CEA4;
+    --asset-2:#345995;
+    --asset-3:#EAC435;
+}
+body{
+    font-family: "Lobster", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
