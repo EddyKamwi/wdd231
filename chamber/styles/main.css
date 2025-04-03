@@ -330,6 +330,12 @@ nav a:hover {
   margin: 1rem;
 }
 
+#f-results{
+  font-size: 1.4rem;
+  text-align: left;
+  margin: auto;
+}
+
 .close-btn {
   position: absolute;
   right: -2rem;
@@ -339,7 +345,7 @@ nav a:hover {
   width: 50px;
   background-color: transparent;
 }
-
+.m-card{transition: all 5s auto;}
 .close-btn:hover {
   cursor: pointer;
   transform: translateY(3px);
