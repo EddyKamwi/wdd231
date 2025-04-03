@@ -306,7 +306,8 @@ nav a:hover {
   color: var(--text-secondary);
 }
 
-:modal {
+/* modern css */
+dialog:modal {
   max-width: 480px;
   position: relative;
   padding: 2rem;
@@ -314,7 +315,7 @@ nav a:hover {
   margin: auto;
 }
 
-:modal * {
+dialog * {
   border: none;
   padding: 0;
   margin: 0;
@@ -322,15 +323,15 @@ nav a:hover {
   text-align: center;
 }
 
-:modal form {
+dialog form {
   position: relative;
 }
 
-:modal p{
+dialog p {
   margin: 1rem;
 }
 
-#f-results{
+#f-results {
   font-size: 1.4rem;
   text-align: left;
   margin: auto;
@@ -345,7 +346,11 @@ nav a:hover {
   width: 50px;
   background-color: transparent;
 }
-.m-card{transition: all 5s auto;}
+
+.m-card {
+  transition: all 5s;
+}
+
 .close-btn:hover {
   cursor: pointer;
   transform: translateY(3px);
