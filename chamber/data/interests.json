@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Lusaka National Museum",
+      "address": "Independence Avenue, Lusaka, Zambia",
+      "photo": "A modern building with bold geometric architecture, flanked by sculptures and vibrant murals.",
+      "description": "Explore Zambia’s cultural and historical journey through exhibits ranging from pre-colonial artifacts to contemporary art. Highlights include tribal masks, ceremonial costumes, and displays on the country’s independence movement."
+    },
+    {
+      "name": "Kabwata Cultural Village",
+      "address": "Kabwata Residential Area, Lusaka",
+      "photo": "Colorful stalls with artisans carving wooden masks and weaving baskets under shaded canopies.",
+      "description": "A living cultural hub where local craftspeople create and sell traditional Zambian crafts. Watch live drumming or dance performances and try your hand at beadwork workshops."
+    },
+    {
+      "name": "Soweto Market",
+      "address": "Soweto Township, Lusaka (near Cairo Road)",
+      "photo": "Bustling open-air stalls piled with fresh produce, vibrant chitenge fabrics, and vendors grilling maize.",
+      "description": "Lusaka’s largest market, offering everything from spices to secondhand clothes. Dive into street food like kapenta (dried fish) or nshima (maize porridge) while bargaining for souvenirs."
+    },
+    {
+      "name": "Cathedral of the Holy Cross",
+      "address": "Independence Avenue, Lusaka",
+      "photo": "A towering white modernist structure with angular stained-glass windows casting colorful light inside.",
+      "description": "Zambia’s largest Catholic cathedral, built in 1962. Its minimalist design and serene atmosphere contrast with the bustling city outside. Attend mass or admire the abstract religious artwork."
+    },
+    {
+      "name": "Lilayi Elephant Nursery",
+      "address": "Kafue Road, 15 km south of Lusaka",
+      "photo": "Baby elephants being bottle-fed by caretakers in a grassy reserve.",
+      "description": "A rescue center for orphaned elephants, run by Game Rangers International. Visit during feeding times (10 AM or 3 PM) to learn about conservation and watch the calves play."
+    },
+    {
+      "name": "Freedom Statue",
+      "address": "Independence Avenue, near Parliament Buildings",
+      "photo": "A bronze statue of a man breaking chains, set against the Zambian flag.",
+      "description": "Erected in 1974, this iconic monument symbolizes Zambia’s liberation from colonial rule. The base reads 'Freedom and Work,' reflecting the nation’s post-independence ethos."
+    },
+    {
+      "name": "Chilenje House 394",
+      "address": "Chilenje Road, House 394, Lusaka",
+      "photo": "A modest red-brick bungalow with a historical plaque and photos of Kenneth Kaunda.",
+      "description": "The former home of Zambia’s founding president, now a museum showcasing his life and the independence struggle. Exhibits include original furniture, letters, and protest memorabilia."
+    },
+    {
+      "name": "East Park Mall",
+      "address": "Great East Road, Lusaka",
+      "photo": "A sleek shopping complex with palm trees, neon signs, and a buzzing food court.",
+      "description": "A modern retail and entertainment hub with international brands, cafes, and a cinema. Grab a coffee, shop for Zambian crafts at Namushana Heritage, or catch the latest movie."
+    }
+  ]
