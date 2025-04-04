@@ -295,7 +295,7 @@ select {
   grid-template-columns: 1fr;
 }
 .i-card{
-  max-width: 330px;
+  /* max-width: 330px; */
   display: grid;
   padding: 0;
 }
