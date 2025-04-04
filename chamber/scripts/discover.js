@@ -12,7 +12,7 @@ async function main() {
                 <address>${interest.address}</address>
                 <figure>
                     <img src="${interest.photoUrl}"
-                        alt="${interest.name}" width="320" height="230">
+                        alt="${interest.name}" width="320" height="230" loading="lazy">
                 </figure>
                 <p>${interest.description}</p>
                 `
