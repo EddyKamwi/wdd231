@@ -354,7 +354,7 @@ nav a:hover {
 }
 
 /* modern css */
-dialog:modal {
+:modal {
   max-width: 480px;
   position: relative;
   padding: 2rem;
