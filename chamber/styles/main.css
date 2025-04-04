@@ -292,14 +292,44 @@ select {
 /* Discover page styling starts here */
 #i-container{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
+  gap: .9rem;
 }
 .i-card{
-  /* max-width: 330px; */
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  background-color: var(--bg-asset);
+  place-content: center;
+  place-items: center;
+  border: solid 1px;
+  border-radius: 5px;
+  
   display: grid;
-  padding: 0;
+  grid-template-areas:
+  "title"
+  "figure"
+  "address"
+  "description";
 }
-.i-card figure img{
+.i-card h2{
+  grid-area: title;
+  padding: .8rem;
+}
+.i-card figure{
+  grid-area: figure;
+}
+.i-card address{
+  grid-area: address;
+  padding: 0;
+  margin: 0;
+} 
+.i-card p{
+  grid-area: description;
+  min-height: 100px;
+  padding: .8rem;
+}
+
+.i-card figure img{ 
   max-width: 100%;
   height: auto;
 }
