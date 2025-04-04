@@ -46,10 +46,13 @@
 }
 
 @media screen and (min-width: 720px) {
+  #i-container{
+    grid-template-columns: auto auto;
+  }
   .hero {
     background: url("../images/hero-big.webp") center center no-repeat;
     background-size: cover;
-    aspect-ratio: 8/5;
+    aspect-ratio: 8/5; 
     width: 100%;
   }
 

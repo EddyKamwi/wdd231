@@ -290,6 +290,10 @@ select {
 
 
 /* Discover page styling starts here */
+#i-container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .i-card{
   max-width: 330px;
   display: grid;
