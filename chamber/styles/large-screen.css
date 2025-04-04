@@ -121,6 +121,13 @@
     flex-direction: row;
   }
 
+  .i-card figure:hover{
+    transform: scale(.95);
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all .5s ease;
+  }
   .w-card.fixed {
     flex: 1;
   }
