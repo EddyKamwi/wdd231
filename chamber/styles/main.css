@@ -288,6 +288,18 @@ select {
 
 /* Join page styling ends here */
 
+
+/* Discover page styling starts here */
+.i-card{
+  max-width: 330px;
+  display: grid;
+  padding: 0;
+}
+.i-card *{
+  margin:.3rem 0;
+}
+/* Discover page styling ends here */
+
 figure,
 figcaption {
   text-align: center;
