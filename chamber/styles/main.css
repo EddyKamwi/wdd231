@@ -299,8 +299,9 @@ select {
   display: grid;
   padding: 0;
 }
-.i-card *{
-  margin:.3rem 0;
+.i-card figure img{
+  max-width: 100%;
+  height: auto;
 }
 /* Discover page styling ends here */
 
