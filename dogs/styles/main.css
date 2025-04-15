@@ -1,0 +1,43 @@
+;
+
+:root {
+    --primary: #CA1551;
+    --secondar: #FB4D3D;
+    --asset-1: #03CEA4;
+    --asset-2: #345995;
+    --asset-3: #EAC435;
+}
+
+body {
+    font-family: "Lobster", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 1rem;
+}
+
+.color {
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    margin:0 .5rem;
+}
+
+.one {
+    background-color: #CA1551;
+}
+
+.two {
+    background-color: #FB4D3D;
+}
+
+.three {
+    background-color: #03CEA4;
+}
+
+.four {
+    background-color: #345995;
+}
+
+.five {
+    background-color: #EAC435;
+}
