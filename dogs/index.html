@@ -12,12 +12,17 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
 
     <!-- local styles -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/large-screen.css">
+    <link rel="stylesheet" href="styles/main-large.css">
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/dogsGallery.js" defer></script>
+
 </head>
 
 <body>
@@ -28,12 +33,57 @@
         </div>
         <nav>
             <a href="./index.html" class="active">Home</a>
-            <a href="./directory.html">Directory</a>
-            <a href="./join.html">Join</a>
-            <a href="./discover.html">Discover</a>
+            <a href="./directory.html">Gallery</a>
+            <a href="./join.html">About Us</a>
             <a href="#">◐</a>
         </nav>
     </header>
+    <main>
+        <div class="hero">
+            <div class="hero-card">
+                <h1>Welcome to the Dog Site</h1>
+                <p>Discover the world of dogs, their breeds, and their unique characteristics.</p>
+                <button class="hero-action">Dog of the Day</button>
+            </div>
+            <picture>
+                <source srcset="./images/hero.webp" type="image/webp" media="(min-width: 500px)">
+                <img src="./images/hero-small.webp" alt="Pitbull runnning" width="320" height="420" loading="lazy">
+            </picture>
+        </div>
+        <section class="dogImageApi">
+            <h2>Dog CEO API- Random Image Generator</h2>
+            <p>Display single random image from all dogs collection <a href="https://dog.ceo/dog-api/"
+                    target="_blank">Learn More</a></p>
+            <div class="gallery"></div>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <p>&copy;<span id="year">2023</span> Edward Kamwi</p>
+            <p>All rights reserved.</p>
+            <p>Last modified: <span id="lastmodified">20/12/2013</span></p>
+
+        </div>
+        <div>
+            <p>Follow me on social media:</p>
+            <p>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Github</a>
+                <a href="#" target="_blank">Youtube</a>
+                <a href="#" target="_blank">LinkedIn</a>
+
+            </p>
+        </div>
+
+        <div>
+            <form action="" method="get">
+                <h3>News Letter</h3>
+                <label>Email: <input type="email" name="email" id="email" required autocomplete="email"> </label>
+                <input type="submit" value="Subscribe" class="submit">
+            </form>
+        </div>
+    </footer>
 
 </body>
 

@@ -1,21 +1,25 @@
 :root {
-  --primary: #ca1551;
-  --secondar: #fb4d3d;
-  --asset-1: #03cea4;
-  --asset-2: #345995;
+  --primary: #810e34;
+  --secondary: #fb4d3d;
+  --asset-1: #bafff1;
+  --asset-2: #182d4e;
   --asset-3: #eac435;
+  --bg-primary-transp: rgba(240, 246, 163, 0.2);
 }
-
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
-  font-family: "Lobster", sans-serif;
-  font-weight: 200;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 1.2rem;
   font-style: normal;
-  padding: 1rem;
   max-width: 1080px;
   margin: 0 auto;
 }
 .logo {
-  border: #ca1551 solid 3px;
+  border: #eac435 solid 3px;
   background-color: #fff;
   border-radius: 50%;
   overflow: hidden;
@@ -25,10 +29,12 @@ body {
   width: 80px;
   height: 80px;
 }
+
 .logo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 .nav-icons {
   display: flex;
@@ -43,18 +49,60 @@ body {
   align-items: center;
   padding: 1rem 0;
 }
+.dogImageApi {
+  background-color: var(--asset-2);
+  padding: 2rem 1rem;
+  color: var(--asset-1);
+  text-align: center;
+}
+.dogImageApi a {
+  text-decoration: underline;
+  color: var(--asset-1);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
 nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0 1rem 0;
   gap: 1rem;
-  font-size: 3rem;
+  font-size: 1.8rem;
   font-weight: 100;
   height: 0;
   overflow: hidden;
   transition: height 0.5s ease-in-out;
+}
+nav a {
+  text-decoration: none;
+  color: var(--asset-1);
+  display: block;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+nav a:hover {
+  background-color: var(--asset-2);
+  color: #fff;
+  border-radius: 5px;
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
+}
+footer form input {
+  padding: 0.2rem 1rem;
+}
+.submit {
+  padding: 0.3rem 1rem;
+  background-color: var(--asset-1);
+  border-radius: 2px;
+  border: var(--asset-2) solid 1px;
+  cursor: pointer;
+}
+.submit:active {
+  transform: translateY(2px);
+}
+form {
+  margin: 0.5rem;
 }
 .show {
   height: 320px;
@@ -64,7 +112,16 @@ header {
   place-content: space-between;
   grid-template-columns: 1fr;
   background-color: var(--primary);
-    padding: 0 1rem
+  padding: 0 1rem;
+  border-bottom: var(--asset-2) solid 5px;
+}
+
+.hero {
+  border: var(--asset-3) solid 1px;
+  border-top: none;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
 }
 .color {
   width: 60px;
@@ -72,7 +129,92 @@ header {
   display: inline-block;
   margin: 0 0.5rem;
 }
-
+.hero-action {
+  background-color: var(--primary);
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  color: var(--asset-1);
+  border: var(--asset-3) solid 1px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.hero-action:hover {
+  background-color: var(--asset-2);
+  color: #fff;
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.hero-card {
+  position: absolute;
+  top: 45%;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding: 1rem;
+  justify-content: center;
+  background-color: var(--bg-primary-transp);
+  border-radius: 5px;
+}
+.image-card {
+  overflow: hidden;
+  position: relative;
+}
+.dog-name {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  bottom: 0;
+  position: absolute;
+  background-color: rgb(129, 14, 52, 0.5);
+  padding: 0.5rem 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--asset-1);
+}
+.image-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto);
+  padding: 2rem;
+  gap: 1rem;
+  place-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: var(--primary);
+  color: var(--asset-1);
+  gap: 2rem;
+}
+footer form h3 {
+  text-align: center;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: .2rem;
+}
+footer a {
+  /* text-decoration:none; */
+  color: var(--asset-1);
+}
 .one {
   background-color: #ca1551;
 }
@@ -86,7 +228,7 @@ header {
 }
 
 .four {
-  background-color: #345995;
+  background-color: #182d4e;
 }
 
 .five {

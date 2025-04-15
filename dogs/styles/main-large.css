@@ -1,0 +1,28 @@
+@media screen and (min-width: 630px) {
+    .gallery {
+        grid-template-columns: repeat(2, auto);
+      }
+}
+
+@media screen and (min-width: 950px) {
+  header {
+    grid-template-columns: 1fr 2fr;
+  }
+  nav {
+    height: auto;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: end;
+  }
+  .nav-icons {
+    display: none;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, auto);
+  }
+}
