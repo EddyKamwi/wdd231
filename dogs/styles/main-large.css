@@ -2,6 +2,9 @@
     .gallery {
         grid-template-columns: repeat(2, auto);
       }
+      .explore{
+        grid-template-columns: repeat(2,auto);
+      }
 }
 
 @media screen and (min-width: 950px) {
@@ -24,5 +27,8 @@
   }
   .gallery {
     grid-template-columns: repeat(3, auto);
+  }
+  .explore{
+    grid-template-columns: repeat(3,auto);
   }
 }

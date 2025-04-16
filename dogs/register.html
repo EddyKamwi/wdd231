@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Dogs Site</title>
+    <title>Register | Dogs Site</title>
     <meta name="description"
         content="Welcome to the Dog Site. Discover the world of dogs, their breeds, and their unique characteristics.">
     <meta name="keywords" content="dogs, dog breeds, dog characteristics, dog site, dog gallery">
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/main-large.css">
     <script src="scripts/main.js" defer></script>
-    <script src="scripts/dogs-gallery.js" defer></script>
+    <script src="scripts/dog-facts.js" defer></script>
 
 </head>
 
@@ -33,33 +33,29 @@
             <button class="nav-icons bars" id="menu-bars">≡</button>
         </div>
         <nav>
-            <a href="./index.html" class="active">Home</a>
+            <a href="./index.html">Home</a>
             <a href="./explore.html">Explore</a>
-            <a href="./register.html" class="signup-btn">Register</a>
+            <a href="./register.html" class="active">Register</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <div class="hero-card">
-                <h1>Welcome to the Dog Site</h1>
+        <div class="explore-hero">
+            <div class="explore-hero-card">
+                <h1>Register With Us</h1>
                 <p>Discover the world of dogs, their breeds, and their unique characteristics.</p>
-                <button class="hero-action">Dog of the Day</button>
             </div>
-            <picture>
-                <source srcset="./images/hero.webp" type="image/webp" media="(min-width: 500px)">
-                <img src="./images/hero-small.webp" alt="Pitbull runnning" width="320" height="420" loading="lazy">
-            </picture>
         </div>
-        <section class="dogImageApi">
-            <h2>Dog CEO API- Random Image Generator</h2>
-            <p>Display single random image from all dogs collection </p>
-            <a href="https://dog.ceo/dog-api/" target="_blank">Learn More : https://dog.ceo/dog-api/</a>
-            <div class="gallery"></div>
-        </section>
+        <section class="explore-container">
+            <div class="facts">
+                <h2>Dog Facts</h2>
+                <p class="dog-facts"><span>‟ ‟</span>
+                    The Dog API provides information on over 340 dog breeds, 20 breed groups, and fun
+                    facts.</p>
+            </div>
 
-       
+        </section>
     </main>
-    
+
     <footer>
         <div>
             <p>&copy;<span id="year">2023</span> Edward Kamwi</p>
