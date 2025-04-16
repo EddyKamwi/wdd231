@@ -174,14 +174,12 @@ header {
   padding: 1rem;
   color: var(--asset-1);
   border-radius: 0 5px;
-  clip-path: polygon(0% 10%, 20% 0%, 100% 0%, 100% 90%, 80% 100%, 0% 100%);
 }
 .facts {
   display: none;
   place-content: center;
   place-items: center;
   background-color: var(--asset-2);
-  clip-path: polygon(0% 10%, 20% 0%, 100% 0%, 100% 90%, 80% 100%, 0% 100%);
   background-image: url("../images/hero.webp");
 }
 .quote {
@@ -203,7 +201,6 @@ header {
   overflow: hidden;
   gap: 1rem;
   color: var(--asset-1);
-  clip-path: polygon(0% 10%, 20% 0%, 100% 0%, 100% 90%, 80% 100%, 0% 100%);
 }
 .ex-card h3,
 .ex-card h4,
@@ -335,7 +332,7 @@ form label,
 }
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto);
+  grid-template-columns: auto;
   padding: 2rem;
   gap: 1rem;
   place-content: center;
