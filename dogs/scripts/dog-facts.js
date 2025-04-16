@@ -4,7 +4,7 @@
 
       results.then((data) => {
         const fact = data.data[0].attributes.body
-      const para = document.querySelector(".dog-facts");
+      const para = document.querySelector(".q-text");
       para.innerHTML = fact;
     });
   };

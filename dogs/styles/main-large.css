@@ -1,10 +1,20 @@
 @media screen and (min-width: 630px) {
-    .gallery {
-        grid-template-columns: repeat(2, auto);
-      }
-      .explore{
-        grid-template-columns: repeat(2,auto);
-      }
+  .gallery {
+    grid-template-columns: repeat(2, auto);
+  }
+  .explore {
+    grid-template-columns: repeat(2, auto);
+  }
+  .facts {
+    display: grid;
+    flex: 2;
+  }
+  .reg-container form {
+    padding: 0.8rem;
+    flex:1;
+  }
+  
+
 }
 
 @media screen and (min-width: 950px) {
@@ -28,7 +38,7 @@
   .gallery {
     grid-template-columns: repeat(3, auto);
   }
-  .explore{
-    grid-template-columns: repeat(3,auto);
+  .explore {
+    grid-template-columns: repeat(3, auto);
   }
 }

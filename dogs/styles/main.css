@@ -1,6 +1,6 @@
 :root {
   --primary: #810e34;
-  --secondary: #fb4d3d;
+  --secondary: rgb(251, 77, 61, 0.2);
   --asset-1: #bafff1;
   --asset-2: #182d4e;
   --asset-3: #eac435;
@@ -111,9 +111,6 @@ footer form input {
 .submit:active {
   transform: translateY(2px);
 }
-form {
-  margin: 0.5rem;
-}
 .show {
   height: 320px;
 }
@@ -143,16 +140,55 @@ header {
 }
 .explore-container {
   padding: 1rem 2rem;
+  display: grid;
+  justify-content: space-around;
+  height: auto;
+  padding: 5rem;
 }
-.explore{
-    margin: 5rem auto;
-    display: grid;
-    grid-template-columns: auto;
-    gap: 1rem;
-    transition: all .5s ease;
+.reg-container {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  padding: 5rem;
 }
-.ex-icon{
-    font-size: 1.2rem;
+.explore {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+  transition: all 0.5s ease;
+}
+.ex-icon {
+  font-size: 1.2rem;
+}
+.q-icon {
+  font-size: 5rem;
+}
+.q-text {
+  font-weight: 600;
+  background-color: rgb(24, 45, 78, 0.5);
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  color: var(--asset-1);
+  border-radius: 0 5px;
+  clip-path: polygon(0% 10%, 20% 0%, 100% 0%, 100% 90%, 80% 100%, 0% 100%);
+}
+.facts {
+  display: none;
+  place-content: center;
+  place-items: center;
+  background-color: var(--asset-2);
+  clip-path: polygon(0% 10%, 20% 0%, 100% 0%, 100% 90%, 80% 100%, 0% 100%);
+  background-image: url("../images/hero.webp");
+}
+.quote {
+  width: auto;
+  text-align: left;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
 }
 .ex-card {
   display: flex;
@@ -168,35 +204,62 @@ header {
   color: var(--asset-1);
   clip-path: polygon(0% 10%, 20% 0%, 100% 0%, 100% 90%, 80% 100%, 0% 100%);
 }
-.ex-card h3,.ex-card h4,
+.ex-card h3,
+.ex-card h4,
 .ex-card p {
   width: 100%;
   text-align: center;
 }
 
-.ex-weight{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: medium;
-    margin:.5rem auto;
-    
+.ex-weight {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  margin: 0.5rem auto;
 }
-.ex-action{
-    background-color: var(--asset-1);
-    color:var(--asset-2);
-    text-decoration: none;
-    display: block;
-    padding: .4rem 1rem;
-    text-align: center;
-    width: 100px;
-    margin:0 auto;
-    border-radius: 5px;
-    font-weight: 600;
-    transition: all .2s ease;
+.ex-action {
+  background-color: var(--asset-1);
+  color: var(--asset-2);
+  text-decoration: none;
+  display: block;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
-.ex-action:hover{
-    background-color: var(--primary);
-    color:var(--asset-1)
+.ex-action:hover {
+  background-color: var(--primary);
+  color: var(--asset-1);
+}
+.reg-container form {
+  display: grid;
+  grid-template-columns: auto;
+  place-content: stretch;
+  background-color: rgb(186, 255, 241, 0.6);
+  padding: 1.2rem;
+  width: 100%;
+  font-weight: 600;
+}
+form label,
+.form-btn {
+  margin: 1rem 0 0 0;
+  cursor: pointer;
+  padding: 0.5rem !important;
+}
+.form-btn {
+  border: var(--asset-2) solid 2px;
+  background-color: var(--asset-2);
+  color: var(--asset-3);
+  padding: 0.8rem;
+}
+.reg-container form input {
+  border: var(--secondary) solid 1px;
+  border-radius: 2px;
+  padding: 0.2rem;
+  width: auto;
 }
 .color {
   width: 60px;

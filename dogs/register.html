@@ -45,13 +45,44 @@
                 <p>Discover the world of dogs, their breeds, and their unique characteristics.</p>
             </div>
         </div>
-        <section class="explore-container">
+        <section class="reg-container">
             <div class="facts">
                 <h2>Dog Facts</h2>
-                <p class="dog-facts"><span>‟ ‟</span>
-                    The Dog API provides information on over 340 dog breeds, 20 breed groups, and fun
-                    facts.</p>
+                <p class="quote">
+                    <span class="q-icon">‟</span>
+                    <span class="q-text">
+                        The Dog API provides information on over 340 dog breeds, 20 breed groups, and fun
+                        facts.</span>
+                </p>
+
             </div>
+            <form action="submit.html" method="get">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" required autocomplete="given-name">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" required autocomplete="family-name">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required autocomplete="email">
+
+                <label for="cell">Cell Number:</label>
+                <input type="tel" name="cell" id="cell" required autocomplete="tel">
+
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" required autocomplete="street-address">
+                
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country" required autocomplete="country-name">
+
+                <label for="gender">Gender:</label>
+                <input type="text" name="gender" id="gender" required autocomplete="sex">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" required autocomplete="bday-day">
+
+                <input type="submit" value="Register Now" class="form-btn">
+            </form>
 
         </section>
     </main>
