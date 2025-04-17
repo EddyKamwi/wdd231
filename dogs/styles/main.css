@@ -12,7 +12,7 @@
 }
 body {
   font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
   font-style: normal;
   max-width: 1080px;
@@ -324,7 +324,6 @@ form label,
   position: absolute;
   background-color: rgb(129, 14, 52, 0.5);
   padding: 0.5rem 1.5rem;
-  font-family: "Times New Roman", Times, serif;
   color: var(--asset-1);
 }
 .image-item {
