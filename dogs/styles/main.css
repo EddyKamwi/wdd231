@@ -420,7 +420,7 @@ footer a {
 .model .m-card {
   width: 320px;
   height: 80%;
-  backgound-color: var(--asset-1);
+  background-color: var(--asset-1);
   position: relative;
   transition: width .5s ease-in;
 
