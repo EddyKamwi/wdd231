@@ -1,9 +1,8 @@
 const dog = async () => {
-  const results = (
-    await fetch("https://dog.ceo/api/breeds/image/random")
-  ).json();
+  try {
+    const results = await fetch("https://dog.ceo/api/breeds/image/random");
+    const data = await results.json();
 
-  results.then((data) => {
     const parts = data.message.split("/").filter((part) => part !== "");
 
     // Find the index of 'breeds' in the filtered array
@@ -19,10 +18,13 @@ const dog = async () => {
     div.setAttribute("class", "image-card");
     div.innerHTML = `<span class="dog-name">${breedName}</span><img src="${data.message}" id="random-dog" class="image-item" width="320" height="420" alt="Random dog" loading="lazy">`;
     container.appendChild(div);
-  });
+  } catch (error) {
+    console.log(error);
+  }
 };
 // Call the function to display a random dog image
-for (let i = 0; i < 6; i++) {
+const limit = 6
+for (let i = 0; i < limit; i++) {
   dog();
 }
 window.addEventListener("scroll", () => {

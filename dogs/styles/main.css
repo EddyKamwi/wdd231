@@ -230,6 +230,7 @@ header {
   border-radius: 5px;
   font-weight: 600;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 .ex-action:hover {
   background-color: var(--primary);
