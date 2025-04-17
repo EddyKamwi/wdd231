@@ -11,10 +11,8 @@
   }
   .reg-container form {
     padding: 0.8rem;
-    flex:1;
+    flex: 1;
   }
-  
-
 }
 
 @media screen and (min-width: 950px) {
