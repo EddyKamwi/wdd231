@@ -3,8 +3,7 @@ const dog = async () => {
     await fetch("https://dog.ceo/api/breeds/image/random")
   ).json();
 
-    results.then((data) => {
-      
+  results.then((data) => {
     const parts = data.message.split("/").filter((part) => part !== "");
 
     // Find the index of 'breeds' in the filtered array
@@ -26,3 +25,9 @@ const dog = async () => {
 for (let i = 0; i < 6; i++) {
   dog();
 }
+window.addEventListener("scroll", () => {
+  if (window.scrollY >= 360) {
+    document.querySelector(".gallery").style.opacity = 1;
+    document.querySelector(".gallery").style.transform = "translateY(0px)";
+  }
+});

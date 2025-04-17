@@ -189,7 +189,7 @@ header {
   gap: 1rem;
   padding: 1rem;
 }
-.ex-card {
+.ex-card,.m-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -201,6 +201,9 @@ header {
   overflow: hidden;
   gap: 1rem;
   color: var(--asset-1);
+}
+.m-content{
+  height: 100%;
 }
 .ex-card h3,
 .ex-card h4,
@@ -336,6 +339,9 @@ form label,
   padding: 2rem;
   gap: 1rem;
   place-content: center;
+  opacity: 0;
+  transform: translateY(200px);
+  transition: all 2s ease;
 }
 footer {
   display: flex;
@@ -388,4 +394,44 @@ footer a {
 
 .five {
   background-color: #eac435;
+}
+.model {
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.7);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity .5s ease;
+}
+.model-show{
+  width: 100%!important;
+  height: 100%!important;
+  opacity: 1;
+}
+.model .m-card {
+  width: 320px;
+  height: 80%;
+  backgound-color: var(--asset-1);
+  position: relative;
+  transition: width .5s ease-in;
+
+}
+.model .m-close {
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  border: none;
+  background-color: var(--asset-1);
+  font-size: 1.5rem;
 }
