@@ -329,9 +329,11 @@ select {
   padding: .8rem;
 }
 
-.i-card figure img{ 
-  max-width: 100%;
-  height: auto;
+.i-card figure img{
+  object-fit: cover;
+  object-position: center; 
+  width: 100%;
+  height: 100%;
 }
 /* Discover page styling ends here */
 
@@ -379,6 +381,8 @@ dialog p {
 }
 
 #f-results {
+  display: block;
+  padding: 1rem;
   font-size: 1.4rem;
   text-align: left;
   margin: auto;
@@ -505,13 +509,13 @@ h1 {
 
 .button-active {
   background-color: rgb(5, 92, 5);
-  color: #fff;
+  color: var(--text-light);
   border: none;
 }
 
 button:hover {
   background-color: lightgreen;
-  color: #000;
+  color: var(--text-dark);
 }
 
 .grid {
