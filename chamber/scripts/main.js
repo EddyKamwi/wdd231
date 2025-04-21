@@ -48,7 +48,7 @@ const displayCompany = (array) => {
   });
 };
 const data = async () => {
-  const url = "http://127.0.0.1:5500/chamber/data/members.json";
+  const url = "https://eddykamwi.github.io/chamber/data/members.json";
   const resp = await fetch(url);
   const data = await resp.json();
   displayCompany(data.companies);
