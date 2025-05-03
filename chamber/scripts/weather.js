@@ -69,7 +69,7 @@ async function main() {
         <p class="b-tagName">${companiesList[index].tagLine}</p>
         <hr>
         <div class="b-body">
-          <img src="${companiesList[index].iconUrl}" alt="Logo" height="45" width="72" loading="lazy">
+          <img src="${companiesList[index].iconUrl}" alt="${companiesList[index].names} logo" height="45" width="72" loading="lazy">
           <div>
             <p><span>Email: </span> ${companiesList[index].email}</p>
             <p><span>Phone: </span> ${companiesList[index].cell}</p>

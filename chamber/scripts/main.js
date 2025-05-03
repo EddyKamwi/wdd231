@@ -33,7 +33,7 @@ const displayCompany = (array) => {
     logo.setAttribute("src", company.iconUrl);
     logo.setAttribute(
       "alt",
-      `Portrait of ${company.name} ${company.lastname} – ${company.order}${company.order} Latter-day President`
+      `${company.names} logo`
     );
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("height", 50);
